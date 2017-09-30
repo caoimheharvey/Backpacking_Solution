@@ -11,7 +11,7 @@ from google_flight import google_flight_api
 import datetime
 
 def findBestRoute(array, start):
-    g = google_flight_api.GoogleFlight('AIzaSyCoYPc7_vtNRlnCmGO8LB4DSQXblwLjhW4')
+    g = google_flight_api.GoogleFlight('')
 
     temp = {}
     end = {}

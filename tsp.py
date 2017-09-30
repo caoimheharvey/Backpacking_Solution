@@ -1,6 +1,12 @@
 #@author Caoimhe Harvey
 #Python 2.7
 
+"""
+Things left to do:
+- Get date to increment by interval
+- Add recurisive call
+"""
+
 from google_flight import google_flight_api
 import datetime
 
@@ -42,6 +48,7 @@ def findBestRoute(array, start):
     print (cheapest)
     cheapestRoute.update({cheapest : temp[cheapest]})
     temp.clear()
+    #missing recursive call here
     
 desiredAirports = []
 cheapestRoute = {}
@@ -70,6 +77,3 @@ findBestRoute(desiredAirports,str(startDate))
     
 for key, value in cheapestRoute.items():
     print key, value
-
-
-

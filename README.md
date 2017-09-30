@@ -2,5 +2,12 @@
 
 Inspired by the NP-Complete Traveling Salesman Problem.
 
-<h3>Objective</h3>
-User inputs the 3 character Airport code of all airports they wish to visit, including a start date for the journey and the average time spent overall in per location (eg. 4 days is the average time spent in each location, could vary). The program accesses live data from Skyscanner and finds the cheapest route for the user to take in such a way where all locations are visited with no repetition.
+<h2>How to run: </h2>
+<b>main.py</b>
+
+Run from the command line. 
+
+Input the date you wish to start your journey. Then input a list of the airports you wish to travel to, after which type "DONE". 
+
+<h4>Additional</h4>
+Google Flights API is credit of Github user Yangxu.

@@ -99,8 +99,7 @@ class GoogleFlight(object):
       else:
          print "No data yet"
 
-#Modification by Caoimhe Harvey
-    def getCost(self):
+   def getCost(self):
         if self.trips != None:
             for trip in self.trips:
                #print "\n %s"% (trip["saleTotal"])
